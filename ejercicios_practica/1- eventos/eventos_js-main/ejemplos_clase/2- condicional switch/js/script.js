@@ -4,8 +4,8 @@ console.log("Condicional Switch");
 
 let entrada = prompt("Ingresar un nombre");
 switch (entrada) {
-    case "ANA":
-        console.log("HOLA ANA");
+    case "ANA ":
+        console.log("HOLA ANA ");
         break;
     case "JUAN":
         console.log("HOLA JUAN");
@@ -16,7 +16,7 @@ switch (entrada) {
 }
 
 console.log("Ejemplo sin condicional switch, a puro if..else")
-
+let Entrada = prompt("ingrese su nombre")
 if (entrada == "ANA") {
     console.log("HOLA ANA");
 } else {
@@ -26,3 +26,5 @@ if (entrada == "ANA") {
         console.log("¿QUIÉN SOS?");
     }
 }
+
+
